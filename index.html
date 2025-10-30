@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yahir Nava — Portafolio</title>
+  <meta name="description" content="Portafolio creativo de Yahir Nava — Desarrollador Web" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a2d9a64b6c.js" crossorigin="anonymous"></script>
+  <style>
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(6px); }
+    @keyframes floaty { 0% { transform: translateY(0px); } 50% { transform: translateY(-6px); } 100% { transform: translateY(0px); } }
+    .floaty { animation: floaty 6s ease-in-out infinite; }
+    .pdf-viewer { height: 70vh; width: 100%; border: none; }
+  </style>
+</head>
+<body class="bg-neutral-900 text-neutral-100 leading-relaxed">
+
+  <div class="min-h-screen max-w-6xl mx-auto p-6">
+
+    <!-- HERO -->
+    <header class="grid md:grid-cols-3 gap-6 items-center mb-8">
+      <div class="md:col-span-2">
+        <div class="flex items-center gap-4">
+          <img src="/fotos_perfil/IMG_9349.JPG" alt="Yahir Nava" class="w-28 h-28 rounded-full border-2 border-violet-500 floaty" />
+          <div>
+            <h1 class="text-3xl font-extrabold tracking-tight">YAHIR NAVA GÁNDARA</h1>
+            <p class="text-violet-300 font-medium">Desarrollador Web • Angular / Laravel / Tailwind</p>
+            <p class="mt-2 text-sm text-neutral-300 max-w-xl">
+              Desarrollador web apasionado por crear soluciones que mejoren procesos. 
+              He trabajado con Angular, Laravel, MySQL y Tailwind, construyendo sistemas de reservas, gestión y plataformas educativas.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <a href="#certificados" class="px-3 py-1 rounded-md bg-violet-500 hover:bg-violet-600 text-white text-sm">Certificados</a>
+              <a href="#medinfcare" class="px-3 py-1 rounded-md border border-neutral-700 hover:bg-neutral-800 text-sm">MedinfCare</a>
+              <a href="mailto:yahirna17@gmail.com" class="px-3 py-1 rounded-md border border-violet-500 text-violet-300 text-sm">Contactar</a>
+              <a href="https://wa.me/523231239174" class="px-3 py-1 rounded-md border border-violet-500 text-violet-300 text-sm">WhatsApp</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 text-sm flex flex-wrap gap-4 text-neutral-400">
+          <div>Email: <span class="text-neutral-200">yahirna17@gmail.com</span></div>
+          <div>Tel: <span class="text-neutral-200">+52 323 123 9174</span></div>
+          <div>GitHub: <a href="https://github.com/Yahir1217" target="_blank" class="text-violet-300 hover:underline">Yahir1217</a></div>
+        </div>
+      </div>
+
+      <aside class="glass p-4 rounded-2xl shadow-lg">
+        <h3 class="text-sm text-neutral-300 uppercase tracking-wider">Stack principal</h3>
+        <ul class="mt-3 grid grid-cols-2 gap-2 text-sm">
+          <li class="px-2 py-1 rounded bg-neutral-800">Angular</li>
+          <li class="px-2 py-1 rounded bg-neutral-800">Laravel</li>
+          <li class="px-2 py-1 rounded bg-neutral-800">Tailwind</li>
+          <li class="px-2 py-1 rounded bg-neutral-800">MySQL</li>
+          <li class="px-2 py-1 rounded bg-neutral-800">Cloudinary</li>
+          <li class="px-2 py-1 rounded bg-neutral-800">Brevo / APIs</li>
+        </ul>
+      </aside>
+    </header>
+
+    <!-- CERTIFICADOS -->
+    <section id="certificados" class="mb-16">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-bold">Certificados</h2>
+        <p class="text-sm text-neutral-400">Haz clic para ver, descargar y navegar entre ellos.</p>
+      </div>
+      <div id="cert-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+
+        <!-- Universidad Tecnologica de la costa -->
+        <section id="medinfcare" class="mb-16">
+            <h2 class="text-2xl font-bold mb-4 text-violet-400">Proyecto: Universidad Tecnologica De La Costa</h2>
+            <p class="text-neutral-300 text-sm leading-relaxed mb-6 max-w-3xl">
+              Universidad fue un proyecto internacional desarrollado en Colombia, enfocado en tecnología médica e innovación digital. 
+              Durante el viaje, participé en el diseño y desarrollo del sistema, implementando soluciones de gestión médica con Angular, Laravel y MySQL.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a href="https://www.utdelacosta.edu.mx/acerca_de" target="_blank" class="px-4 py-2 rounded-full bg-violet-600 hover:bg-violet-700 text-white">
+                Ver publicación universitaria
+              </a>
+            </div>
+          </section>
+
+    <!-- MEDINFCARE -->
+    <section id="medinfcare" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4 text-violet-400">Proyecto: MedinfCare</h2>
+      <p class="text-neutral-300 text-sm leading-relaxed mb-6 max-w-3xl">
+        MedinfCare fue un proyecto internacional desarrollado en Colombia, enfocado en tecnología médica e innovación digital. 
+        Durante el viaje, participé en el diseño y desarrollo del sistema, implementando soluciones de gestión médica con Angular, Laravel y MySQL.
+      </p>
+      <div class="grid sm:grid-cols-3 gap-4 mb-8">
+        <img src="/fotos_perfil/9518a71a-0b54-44a1-b0e1-c4cd1c1f63da.JPG" class="rounded-lg shadow-md hover:scale-105 transition" alt="Foto Colombia 1">
+        <img src="/fotos_perfil/IMG_7698.JPG" class="rounded-lg shadow-md hover:scale-105 transition" alt="Foto Colombia 2">
+        <img src="/fotos_perfil/IMG_7891.JPG" class="rounded-lg shadow-md hover:scale-105 transition" alt="Foto Colombia 3">
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-12 border-t border-neutral-800 pt-6 pb-12">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div>
+          <h4 class="font-bold">Yahir Nava</h4>
+          <p class="text-sm text-neutral-400">Desarrollador Web • Ingeniería en Desarrollo y Gestión de Software (2021–2025)</p>
+        </div>
+        <div class="flex gap-3">
+          <a href="https://github.com/Yahir1217" target="_blank" class="px-3 py-2 rounded bg-neutral-800">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" class="px-3 py-2 rounded bg-neutral-800">LinkedIn</a>
+          <a href="https://www.credly.com/users/yahir-nava.f0cda0da/badges#credly" class="px-3 py-2 rounded bg-neutral-800">Credly</a>
+        </div>
+      </div>
+      <p class="text-sm text-neutral-600 mt-6">© <span id="year"></span> Yahir Nava. Hecho con Tailwind CSS.</p>
+    </footer>
+  </div>
+
+  <!-- MODAL PDF -->
+  <div id="pdf-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" data-modal-close></div>
+    <div class="relative max-w-5xl w-full bg-neutral-900 rounded-xl overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between p-3 border-b border-neutral-800">
+        <div>
+          <h3 id="modal-title" class="font-semibold">Certificado</h3>
+          <p id="modal-sub" class="text-xs text-neutral-400">Emisor</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <a id="download-btn" class="text-sm px-3 py-1 rounded bg-violet-600 hover:bg-violet-700" download>Descargar</a>
+          <button id="close-modal" class="px-3 py-1 rounded bg-neutral-800 hover:bg-neutral-700">Cerrar</button>
+        </div>
+      </div>
+      <div class="p-4 flex items-start gap-3">
+        <button id="prev-cert" class="p-2 rounded bg-neutral-800 hover:bg-neutral-700">&larr;</button>
+        <iframe id="pdf-frame" class="pdf-viewer bg-white flex-1" src=""></iframe>
+        <button id="next-cert" class="p-2 rounded bg-neutral-800 hover:bg-neutral-700">&rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    const certificates = [
+      { title: 'CCNAv7: Introduction to Networks', file: 'certificados/Certificado_CCNA-_Introduction_to_Networks.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Cloud Computing', file: 'certificados/Certificado_Cloud_Computing.pdf', issuer: 'Plataforma Educativa' },
+      { title: 'CSS Essentials', file: 'certificados/Certificado_CSS_Essentials.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Cybersecurity Essentials', file: 'certificados/Certificado_Cybersecurity_Essentials.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Data Analytics Essentials', file: 'certificados/Certificado_Data_Analytics_Essentials.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Get Connected', file: 'certificados/Certificado_Get_Connected.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'HTML Essentials', file: 'certificados/Certificado_HTML_Essentials.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Introduccion al desarrollo web I', file: 'certificados/Certificado_Introduccion_al_desarrollo_web_I.pdf', issuer: 'Plataforma Educativa' },
+      { title: 'Introduccion al desarrollo web II', file: 'certificados/Certificado_Introduccion_al_desarrollo_web_II.pdf', issuer: 'Plataforma Educativa' },
+      { title: 'Introduction to Cybersecurity', file: 'certificados//Certificado_Introduction_to_Cybersecurity.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Introduction to Data Science', file: 'certificados/Certificado_Introduction_to_Data_Science.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Introduction to Modern AI', file: 'certificados/Certificado_Introduction_to_Modern_AI.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Java OOP Object Oriented Programming with Exercises', file: 'certificados/Certificado_Java_OOP_Object_Oriented_Programming_with_Exercises.pdf', issuer: 'Udemy' },
+      { title: 'JavaScript Essentials 1', file: 'certificados/Certificado_JavaScript_Essentials_1.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'JavaScript Essentials 2', file: 'certificados/Certificado_JavaScript_Essentials_2.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Desarrollo de Apps Móviles', file: 'certificados/Certificado_Desarrollo_de_Apps_Móviles.pdf', issuer: 'Plataforma Educativa' },
+      { title: 'Partner JavaScript Essentials 1 JSE', file: 'certificados/Certificado_Partner-_JavaScript_Essentials_1_-JSE.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Partner NDG Linux Essentials', file: 'certificados/Certificado_Partner-_NDG_Linux_Essentials.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Partner-_NDG_Linux_Unhatched', file: 'certificados/Certificado_Partner-_NDG_Linux_Unhatched.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Python Essentials 1', file: 'certificados/Certificado_Python_Essentials_1.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'Python Essentials 2', file: 'certificados/Certificado_Python_Essentials_2.pdf', issuer: 'Cisco Networking Academy' },
+      { title: 'RedColsi Colombia', file: 'certificados/Certificado_RedColsi_Colombia.pdf', issuer: 'Colombia Red Colsi' },
+      { title: 'Scrum Master', file: 'certificados/Certificado_Scrum_Master.pdf', issuer: 'Udemy' },
+      { title: 'Doker Deep', file: 'certificados/Certificado de Doker-Deep-Udemy.pdf', issuer: 'Udemy' },
+      { title: 'Mastering AI on AWS-Training AWS Certified AI-Practitioner', file: 'certificados/Certificado_Mastering AI on AWS- Training AWS Certified AI-Practitioner .pdf', issuer: 'Udemy' }
+
+
+    ];
+
+    const grid = document.getElementById('cert-grid');
+    certificates.forEach((c, idx) => {
+      const card = document.createElement('button');
+      card.className = 'bg-neutral-800 rounded-lg overflow-hidden hover:scale-[1.02] transition-transform';
+      card.innerHTML = `
+        <div class="h-36 flex items-center justify-center text-sm text-neutral-300">${c.title}</div>
+        <div class="p-3 border-t border-neutral-800 text-left">
+          <div class="text-sm font-medium">${c.title}</div>
+          <div class="text-xs text-neutral-400">${c.issuer}</div>
+        </div>`;
+      card.addEventListener('click', () => openModal(idx));
+      grid.appendChild(card);
+    });
+
+    const modal = document.getElementById('pdf-modal');
+    const pdfFrame = document.getElementById('pdf-frame');
+    const modalTitle = document.getElementById('modal-title');
+    const modalSub = document.getElementById('modal-sub');
+    const downloadBtn = document.getElementById('download-btn');
+    const closeModalBtn = document.getElementById('close-modal');
+    const prevBtn = document.getElementById('prev-cert');
+    const nextBtn = document.getElementById('next-cert');
+    let currentIndex = 0;
+
+    function openModal(index) {
+      currentIndex = index;
+      const cert = certificates[index];
+      modalTitle.textContent = cert.title;
+      modalSub.textContent = cert.issuer;
+      pdfFrame.src = cert.file;
+      downloadBtn.href = cert.file;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeModal() {
+      modal.classList.remove('flex');
+      modal.classList.add('hidden');
+      pdfFrame.src = '';
+    }
+
+    function nextCert() {
+      currentIndex = (currentIndex + 1) % certificates.length;
+      openModal(currentIndex);
+    }
+
+    function prevCert() {
+      currentIndex = (currentIndex - 1 + certificates.length) % certificates.length;
+      openModal(currentIndex);
+    }
+
+    closeModalBtn.addEventListener('click', closeModal);
+    document.querySelector('[data-modal-close]').addEventListener('click', closeModal);
+    nextBtn.addEventListener('click', nextCert);
+    prevBtn.addEventListener('click', prevCert);
+    document.addEventListener('keydown', e => {
+      if (!modal.classList.contains('flex')) return;
+      if (e.key === 'ArrowRight') nextCert();
+      if (e.key === 'ArrowLeft') prevCert();
+      if (e.key === 'Escape') closeModal();
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
